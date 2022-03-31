@@ -1,6 +1,6 @@
 import { createParamDecorator, ExecutionContext } from "@nestjs/common";
 
-import { User } from "../entity/user.entity";
+import { User } from "../classes/user.entity";
 
 /**
  * Custom Decorator 를 만들어서 사용하고 있지만,
